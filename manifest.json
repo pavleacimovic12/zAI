@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "metadata": {
+    "appmode": "python-flask",
+    "entrypoint": "main:app"
+  },
+  "python": {
+    "version": "3.11",
+    "package_manager": {
+      "name": "pip",
+      "package_file": "requirements.txt"
+    }
+  },
+  "environment": {
+    "SESSION_SECRET": "posit-connect-secret-key"
+  }
+}
